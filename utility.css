@@ -1,0 +1,37 @@
+.border{
+    border: 2px solid red ;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+
+}
+.align-item{
+    align-items: center;
+}
+/* WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark color for track */
+  }
+  
+  /* Firefox */
+  /* Note: Firefox supports scrollbar styling only in Nightly versions (as of my knowledge cutoff in January 2022). */
+  /* You may check the latest Firefox support for scrollbar styling. */
+  /* For older Firefox versions, the user may need to enable custom scrollbars in about:config */
+  * {
+    scrollbar-color: #333 #222; /* thumb and track colors */
+    scrollbar-width: thin;
+  }
+  
